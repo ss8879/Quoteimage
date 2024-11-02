@@ -1,0 +1,35 @@
+{
+  "name": "quoteimageapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.1",
+    "axios": "^1.6.7",
+    "canvas": "^2.11.2",
+    "downloadjs": "^1.4.7",
+    "html-to-image": "^1.11.11",
+    "jimp": "^0.22.12",
+    "modern-screenshot": "^4.4.39",
+    "next": "14.1.1",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.15.0",
+    "react": "^18",
+    "react-awesome-button": "^7.0.5",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-otp-input": "^3.1.1",
+    "react-redux": "^9.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}

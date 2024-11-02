@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+}
+.card {
+  cursor: pointer;
+  padding: 10px;
+}
+.cards{
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #FFA90F;
+  color: #FFA90F;
+  border-radius: 5px;
+
+}
+.scontainer1{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-style: italic;
+  width: 600px;
+}
+.link
+{
+  text-decoration: none;
+  color: white;
+}
+.links
+{
+  text-decoration: none;
+  color: #FFA90F;
+}

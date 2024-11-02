@@ -1,0 +1,31 @@
+.cardcontainer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border: 1px solid red;
+  transition: transform 1s;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.icardcontainer{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  gap: 5px;
+
+}

@@ -1,0 +1,22 @@
+.maincontainer
+{
+    background-color: black;
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.imagecontainer
+{
+    position: relative;
+    height: 500px;
+    width: 900px;   
+}
+.h
+{
+    /* font-style: italic; */
+    font-size: 39px;
+    font-weight: lighter;
+}

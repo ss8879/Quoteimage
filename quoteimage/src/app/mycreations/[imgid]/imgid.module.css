@@ -1,0 +1,45 @@
+.container {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.xcontainer {
+  display: flex;
+  width: 500px;
+  cursor:pointer;
+  align-items: center;
+}
+.heading{
+ font-size: xx-large;
+}
+.pblock{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+}
+
+.linkstyle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  height: auto;
+}
+.linkstyle a {
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Add ellipsis */
+  white-space: nowrap; /* Prevent text wrapping */
+  width: 100%; /* Ensure it fits within the parent container */
+  display: inline-block;
+  color: inherit; /* Match the link color to the parent */
+  text-decoration: none; /* Remove underline */
+}
+.tcontainer{
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,28 @@
+.inp {
+  background-color: white;
+}
+.maincontainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  height: 210px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 17px;
+  border: 1px solid white;
+  transition: transform 0.5s;
+}
+
+.btn:hover {
+  transform: translateY(-10px);
+}
